@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>React Webpack starter</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script>
+      // window.practiceId = '8b3b7735-261c-493b-bf4e-5b2cafa2c114';
+      var script = document.createElement("script")
+      script.async = 1
+      // script.src = "https://s3.amazonaws.com/dermio-admin-chat/bundle.js";
+      script.src = "/dist/bundle.js"
+      document.getElementsByTagName("head")[0].appendChild(script)
+    </script>
+  </body>
+</html>
